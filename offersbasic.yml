@@ -1,3 +1,4 @@
 server:
   port : 8099
 offer.discount: 60%
+message: hi from GH!
