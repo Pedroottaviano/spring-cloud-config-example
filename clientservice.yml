@@ -1,4 +1,14 @@
 server:
   port : 8099
-offer.discount: 60%
-message: hi from GH!
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank
+    username: root
+    password: cr203232
